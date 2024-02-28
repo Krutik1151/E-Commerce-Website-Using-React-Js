@@ -1,0 +1,68 @@
+.shop-box {
+
+    width: 30%;
+    position: relative;
+
+}
+
+.shop-box-img {
+
+    width: 100%;
+    filter: brightness(0.7);
+    height: 400px;
+}
+
+.shop-box-img img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.shop-box-inner {
+
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+}
+
+.shop-box-inner h2 {
+    font-size: 2.6rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.shop-box-inner p {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+
+    .shop-offer {
+        width: 80%;
+        left: 15px;
+        top: 20%;
+    }
+    .shop-box {
+        width: 85%;
+    }
+
+    .shop-offer h1 {
+        font-size: 2rem;
+    }
+
+    .shop-offer h2,
+    .shop-offer h5 {
+        font-size: 1rem;
+    }
+
+    .shop-offer p {
+        font-size: 1rem;
+    }
+
+}
+
+

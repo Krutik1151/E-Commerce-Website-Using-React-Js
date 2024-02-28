@@ -1,0 +1,285 @@
+.setcion-1 {
+
+    background: url("../../../public/img/home-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.9);
+}
+
+.home-heading {
+    position: relative;
+    top: 28%;
+    left: 10%;
+    width: 50%;
+}
+
+.home-heading h1 {
+
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.home-heading h4 {
+
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.home-heading button {
+
+    margin-right: 15px;
+
+}
+
+.section-2 {
+
+    background: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 70px auto;
+}
+
+.section-2 .owl-theme {
+
+    width: 100%;
+
+}
+
+.section-2 .owl-theme img {
+
+    width: 100%;
+    margin: 10px;
+}
+
+.section-3 {
+
+    width: 80%;
+    margin: 65px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.section-4 {
+
+    width: 100%;
+    padding: 25px 0;
+    background: whitesmoke;
+
+}
+
+.sec-4-heading {
+
+    padding-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.sec-4-heading h1 {
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 4rem;
+    position: relative;
+
+}
+
+.sec-4-heading h1::after {
+
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 45%;
+    width: 10%;
+    height: 2px;
+    background: lightskyblue;
+
+}
+
+.sec-4-container {
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.section-5 {
+
+    width: 100%;
+    height: 50vh;
+
+}
+
+.sec-5-container {
+
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background: url("../../../public/img/homeImg-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.shop-offer {
+
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+
+}
+
+.shop-offer h2 {
+
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.shop-offer h1 {
+
+    font-size: 3.3rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.shop-offer p {
+
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+
+.shop-offer h5 {
+
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0;
+
+}
+
+.section-6 {
+
+    width: 100%;
+    background: whitesmoke;
+}
+
+.sec-6-container {
+
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .home-heading {
+        width: 80%;
+        left: 20px;
+    }
+    .setcion-1 {
+        height: 75vh;
+    }
+
+    .home-heading h1 {
+        font-size: 2rem;
+    }
+
+    .home-heading h4 {
+        font-size: 1.5rem;
+    }
+
+    .section-2,
+    .section-3,
+    .sec-4-container,
+    .sec-5-container,
+    .sec-6-container {
+        width: 100%;
+    }
+
+    .sec-5-container {
+        background-attachment: local;
+    }
+    .sec-4-heading h1 {
+        font-size: 2rem;
+    }
+
+   
+
+    .section-2 {
+        display: block;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+   
+
+    .shop-box-inner h2 {
+        font-size: 2rem;
+    }
+
+    .shop-box-inner p {
+        font-size: 1.2rem;
+    }
+
+    .sec-4-container {
+        flex-wrap: wrap;
+    }
+
+   
+    .sec-6-container {
+        flex-wrap: wrap;
+    }
+
+    
+    
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1100px) {
+    .section-3 {
+        width: 95%;
+    }
+    .sec-6-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

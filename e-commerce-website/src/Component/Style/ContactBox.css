@@ -1,0 +1,48 @@
+.boxes-info {
+
+    background: whitesmoke;
+    width: 25%;
+    padding: 15px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.boxes-info>h1 {
+
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.boxes-info>p {
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.boxes-info>h4 {
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .boxes-info {
+        width: 45%;
+    }
+    .boxes-info > h1 {
+        font-size: 1.6rem;
+    }
+    .boxes-info > p {
+        font-size: 1.2rem;
+    }
+    .boxes-info > h4 {
+        font-size: 1.4rem;
+    }
+}

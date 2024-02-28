@@ -1,0 +1,51 @@
+.aside-content {
+
+    width: 20%;
+    /* height: 100vh; */
+    background: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+
+}
+
+.aside-link ul li {
+    list-style: none;
+    padding: 5px;
+    margin-top: 35px;
+}
+
+.aside-link ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.aside-link ul li a:hover {
+
+    color: rgb(65, 65, 240);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+
+    .aside-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .aside-link ul li {
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .aside-link {
+
+        width: 100%;
+    }
+
+}

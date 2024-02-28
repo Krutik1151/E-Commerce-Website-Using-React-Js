@@ -1,0 +1,70 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+
+
+/* Button class */
+
+.btn-1 {
+
+    padding: 15px 25px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-1:hover {
+
+    background: black;
+    color: white;
+}
+
+.btn-2 {
+
+    padding: 15px 25px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-2:hover {
+
+    background: white;
+    color: black;
+
+}
+
+.btn-3 {
+
+    padding: 15px 25px;
+    background: rgb(25, 175, 225);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-3:hover {
+
+    background: rgb(127, 160, 171);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+
+    
+}

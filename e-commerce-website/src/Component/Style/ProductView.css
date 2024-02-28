@@ -1,0 +1,144 @@
+.productview-container {
+
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+
+}
+
+.product--view-img {
+
+    width: 40%;
+}
+
+.product--view-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-view-info {
+
+    width: 40%;
+}
+
+.product-view-info h2 {
+
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.product-view-info h1 {
+
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+}
+
+.product-view-info p {
+
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.product-view-info h3 {
+
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.product-view-info h3>span {
+    color: green;
+}
+
+.product-view-info h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.product-view-info h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.product-view-info h4 i {
+
+    margin: 15px;
+}
+
+.product-view-info span {
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: green;
+}
+
+.product-view-info .add-cart-btn {
+    margin-top: 25px;
+}
+
+.add-btn {
+
+    font-size: 2rem;
+    font-weight: 600;
+    background: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.margin-top{
+
+    margin-top: 8px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .productview-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .product--view-img {
+        width: 100%;
+    }
+
+    .product-view-info {
+        width: 100%;
+    }
+    .add-btn {
+        margin-bottom: 8px;
+    }
+    .product-view-info h2 {
+        font-size: 1.8rem;
+    }
+    .product-view-info h1 {
+        font-size: 2rem;
+    }
+    .product-view-info p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1100px) {
+    .product--view-img img {
+        height: 100%;
+    }
+    
+}

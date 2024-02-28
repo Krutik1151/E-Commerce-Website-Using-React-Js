@@ -1,0 +1,151 @@
+.navigation {
+
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .button {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    display: none;
+}
+
+.navigation .button button {
+    font-size: 2rem;
+    background: black;
+    color: white;
+    padding: 4px 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;}
+
+.left-nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 25px;}
+
+.left-nav .logo {
+    width: 10%;
+}
+.left-nav .nav-link{
+    width: 25%;
+}
+.left-nav .logo img {
+    width: 100%;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+.nav-link ul li {
+
+    list-style: none;
+}
+
+.nav-link ul li a {
+
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.rigth-nav {
+
+    width: 50%;
+}
+
+.rigth-nav ul {
+
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-right: 35px;
+}
+
+.rigth-nav ul li {
+
+    list-style: none;
+}
+
+.rigth-nav ul li a {
+
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+/* Responsive Css  */
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+
+
+    .left-nav {
+        width: 100%;
+        gap: 0px;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .left-nav .logo {
+        width: 15%;
+    }
+
+    .navigation .button{
+    
+        display: block;
+    }
+
+
+    .nav-link ul {
+        flex-direction: column;
+        display: none;
+    }
+    .nav-link ul.Responsive_navbar {
+        display: block;
+        position: absolute;
+        left: 0;
+        background: white;
+        width: 100%;
+        z-index: 99;
+    }
+    .nav-link ul li {
+        padding: 10px 10px;
+    }
+    
+
+    .nav-link ul li a {
+        font-size: 1.6rem;
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .navigation .button {
+        top: 10%;
+        left: 8%;
+    }
+}
+
+
